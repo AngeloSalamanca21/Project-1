@@ -44,7 +44,7 @@ body {
 
 h5{
 	background-color: #212020;
-    color: #636161;
+    color: #c2c2c2;
     padding: 5px;
     border-radius: 25px;
     margin: 0px;
@@ -74,7 +74,7 @@ img {
 }
 
 .container{
-	background-color: rgba(0, 0, 0, 0.075);
+	background-color: #242323;
     border: none;
     border-radius: 15px 15px 0px 0px;
     display: flex;
@@ -86,7 +86,7 @@ img {
 }
 
 .container1{
-	background-color: rgba(0, 0, 0, 0.445);
+	background-color: #00000050;
     border: none;
     border-radius: 0px 0px 15px 15px;
     display: flex;
