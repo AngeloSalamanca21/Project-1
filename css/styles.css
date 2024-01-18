@@ -1,0 +1,108 @@
+/* -----------------
+Tabla de contenidos:
+--------------------
+1. Fuente ......................... 12
+2. Variables ...................... 16
+3. Estilos generales .............. 27
+4. Créditos ....................... 37
+-------------------- */
+
+
+/* ----- Fuente ----- */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
+/* ----- Variables ----- */
+* {
+	--primary-font-family: 'Montserrat', sans-serif;
+	--body-bg-color: #212020;
+	--card-bg-color: #242323;
+	--text-color: #c2c2c2;
+	--fb-bg-color: #456da4;
+	--li-bg-color: #0984c6;
+	--ig-bg-color: #006184;
+	--lh-text: 22px;
+}
+
+
+/* ----------------------------- */
+/* ----- Estilos generales ----- */
+/* ----------------------------- */
+body {
+	font-family: var(--primary-font-family);
+	background-color: var(--body-bg-color);
+	color: var(--text-color);
+	line-height: var(--lh-text);
+
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h5{
+	background-color: #212020;
+    color: #636161;
+    padding: 5px;
+    border-radius: 25px;
+    margin: 0px;
+}
+
+a{
+	background-color: transparent;
+}
+
+img {
+	width: 150px;
+    border-radius: 50%;
+}
+
+.logo{
+	width: 45px;
+	height: auto;
+}
+
+.main{
+	border-radius: 15px;
+    width: 30%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+	background-color: rgba(0, 0, 0, 0.075);
+    border: none;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 20px 35px 20px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.container1{
+	background-color: rgba(0, 0, 0, 0.445);
+    border: none;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 35px 10px 35px 10px;
+	height: 50px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+p {
+	text-wrap: pretty;
+}
+
+
+/* ------------------------
+Diseño: UIDesign Daily🎨
+Desarrollo: Frontend Club🔥
+--------------------------- */
